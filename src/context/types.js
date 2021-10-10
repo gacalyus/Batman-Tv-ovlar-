@@ -1,0 +1,3 @@
+export const SET_LOADİNG = "SET_LOADİNG";
+export const SET_SINGLE_SHOW = "SET_SINGLE_SHOW";
+export const CLEAR_SINGLE_SHOW = "CLEAR_SINGLE_SHOW";

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 210px;
+  height: 295;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: #171717;
+}
+.navbarNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBrand a {
+  font-size: 1.4rem;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.navBrand a:hover {
+  color: #3c948b;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.links__link a {
+  display: block;
+  padding: 1rem;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.links__link a:hover {
+  border-bottom: 1px solid #3c948b;
+  color: #3c948b;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.listItem {
+  text-decoration: none;
+  margin: 1rem 2.5rem ;
+  width: 210px;
+  background-color: #f8f4ff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.listItem:hover {
+  transform: scale(1.13);
+}
+
+.listItemInfo {
+  color: black;
+  text-align: center;
+}
+
+.infoName {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.infoRaiting {
+  color: #3c948b;
+  padding: 8px;
+}
+
+//single page styles
+
+.singlepage{
+  display: flex;
+  margin-top: 2rem ;
+}
+
+.singlepage > img{
+  margin-right: 2rem;
+}
+
+.singlepageInfo p {
+  margin: 0.75rem 0;
+}
+
+.singlepageGenre{
+  display: inline-block;
+  border-radius: 15px;
+  margin: 0.5rem 1rem 0.5rem 0;
+  padding: 10px 17px;
+  background-color: cadetblue;
+  color: azure;
+}
